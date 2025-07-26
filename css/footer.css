@@ -1,0 +1,99 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: white;
+  font-family: arial;
+}
+
+.footer-section {
+  background-color: white;
+  color: black;
+  padding: 20px;
+  text-align: center;
+}
+
+.footer-section h2 {
+  font-size: 25px;
+  padding-top: 25px;
+  margin-top: -30px;
+}
+
+.location-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.map-container {
+  width: 48%;
+  /* Adjust the width as needed */
+  height: 500px;
+  margin-bottom: 20px;
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.1);
+}
+
+.location-info {
+  width: 48%;
+  /* Adjust the width as needed */
+  text-align: left;
+}
+
+.location-info h3 {
+  margin-top: -80px;
+  font-size: 22px;
+}
+
+.location-info p {
+  margin: 0;
+  font-size: 17px;
+  text-align: justify;
+}
+
+
+.school-info {
+  display: flex;
+  height: 200px;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: white;
+}
+
+.school-details {
+  width: 60%;
+  text-align: left;
+}
+
+.school-details h2 {
+  margin-top: -60px;
+  font-size: 25px;
+}
+
+.school-details p {
+  font-size: 17px;
+}
+
+.school-details p b {
+  font-size: 20px;
+  text-align: justify;
+}
+
+.contact-details {
+  width: 40%;
+  text-align: left;
+}
+
+.contact-details h2 {
+  margin-bottom: 10px;
+}
+
+.contact-details p {
+  margin: 0;
+  font-size: 17px;
+  text-align: justify;
+}
+
+.contact-details b {
+  font-size: 17px;
+}

@@ -1,0 +1,65 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    background-color: #7ccdcd;
+    color: black;
+    padding: 20px;
+    text-align: center;
+}
+
+.admin-info {
+    margin-top: 20px;
+    text-align: center;
+    color: #333;
+}
+
+.admin-photo {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+    margin-top: -12px;
+}
+
+.admin-info p {
+    margin-top: -16px;
+}
+
+.sidebar {
+    width: 12%;
+    background-color: #f4f4f4;
+    padding: 20px;
+    float: left;
+    height: 620px;
+    
+}
+
+.sidebar ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.sidebar li {
+    padding: 10px 0;
+}
+
+.sidebar li a {
+    text-decoration: none;
+    color: #333;
+    display: block;
+    padding: 5px 0;
+}
+
+.sidebar li a:hover {
+    background-color: #ddd;
+}
+
+
+
+
+

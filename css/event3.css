@@ -1,0 +1,100 @@
+body {
+    font-family: arial;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 17px;
+}
+
+
+.heading {
+    background-color: white;
+    color: black;
+    padding: 20px;
+    text-align: center;
+}
+
+section {
+    padding: 20px;
+}
+
+.event-details {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.event-description {
+    width: 60%;
+    text-align: justify;
+}
+
+.event-image {
+    width: 35%;
+}
+
+.participants-list {
+    margin-top: 20px;
+    text-align: left;
+}
+
+.participants-list h2 {
+    color: #333;
+}
+
+.event-description h2 {
+    color: #333;
+}
+
+.event-image img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-top: -180px;
+}
+
+.form-registration h2 {
+    margin-left: 40px;
+}
+
+.registration-form {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.registration-form h2 {
+    text-align: center;
+}
+
+.registration-form label {
+    display: block;
+    margin: 10px 0 5px;
+}
+
+.registration-form input,
+select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+    font-size: 17px;
+}
+
+.registration-form button {
+    background-color: #4caf50;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+    font-size: 17px;
+}
+
+.registration-form button:hover {
+    background-color: #45a049;
+}

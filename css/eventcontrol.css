@@ -1,0 +1,31 @@
+body,
+html {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: space-between;
+    height: 100%;
+
+}
+
+.box {
+    width: 200px;
+    height: 150px;
+    background-color: lightblue;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.box a {
+    text-decoration: none;
+    color: black;
+
+}
